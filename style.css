@@ -1,0 +1,33 @@
+/* @media screen and (width:600px){
+    body{
+        color:rgb(36, 182, 184)
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    body{
+        color:rgb(158, 158, 53)
+    }    
+} */
+
+/* and operator */
+/*@media screen and (max-width:360px) and (orientation:landscape){
+    body{
+        color: rgb(162, 142, 182);
+    }
+}*/
+
+/* or operator */
+/*@media screen and (max-width:360px) , (orientation:landscape){
+    body{
+        color: rgb(128, 0, 255);
+    }
+}*/
+
+/* not operator */
+@media not all and (orientation:landscape){
+    body{
+        color: rgb(255, 149, 11);
+    }
+}
