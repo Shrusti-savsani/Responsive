@@ -1,0 +1,25 @@
+nav{
+    background-color: rgb(78, 0, 111);
+    overflow: hidden;
+}
+nav a{
+    float: left ;
+    display: block;
+    color: rgb(47, 158, 248);
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(48, 216, 70);
+    color:rgb(9, 65, 0);
+
+}
+
+@media screen and (min-width: 700px) {
+    nav a{
+        float: right;
+        display: block;
+        color:rgb(241, 157, 157);
+    }
+
+}
